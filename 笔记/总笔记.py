@@ -1,7 +1,11 @@
-# -*- ecoding: utf-8 -*-
-# @ModuleName: 总笔记
-# @Author: Kerris
-# @Time: 2023/2/9 10:59
+'''
+Author: Kerrrs 2541822105@qq.com
+Date: 2023-02-13 22:41:12
+LastEditors: Kerrrs 2541822105@qq.com
+LastEditTime: 2023-02-15 00:54:17
+FilePath: \python_learn\笔记\总笔记.py
+Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+'''
 
 """----------基础语句----------"""
 """
@@ -145,7 +149,7 @@ for i in scores:                        #i获取的是字典当中的键
 
 \t                              #制表符
 \n                              #换行符
-\\                              #反斜杠\
+\\                              #反斜杠
 \'                              #单引号
 \"                              #双引号
 \r                              #回车
