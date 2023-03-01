@@ -2,7 +2,7 @@
 Author: Kerrrs 2541822105@qq.com
 Date: 2023-02-13 22:41:12
 LastEditors: Kerrrs 2541822105@qq.com
-LastEditTime: 2023-02-17 14:35:37
+LastEditTime: 2023-03-01 11:39:23
 FilePath: \python_learn\笔记\总笔记.py
 Description: 
 
@@ -267,6 +267,33 @@ f格式化(f-string)
 f'我叫{name},今年{age}岁了'
 
 
+----------BUG处理----------
+————try...except...except BaseException结构
+对报错异常进行处理。
+try:
+    可能异常的代码
+    
+except 异常类型:
+    异常处理结果
+except BaseException:           (避免遗漏可能出现的异常，最后的判断)
+
+
+————try...except...else结构
+如果try块中没有抛出异常，则执行else块，如果try中抛出异常，则执行except块。
+
+
+————try...except...else...finally结构
+finally块无论是否发生异常都会被执行。
+
+
+————常见异常类型
+
+ZeroDivisionError               除（或取模）零（所有数据类型）
+indexError                      序列中没有此索引（index）
+KeyError                        映射中没有这个键
+NameError                       未声明/初始化对象（没有属性）
+SyntaxError                     Python语法错误
+ValueError                      传入无效参数
 
 
 %                               #取余符号(数值运算时)
