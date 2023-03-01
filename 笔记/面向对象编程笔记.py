@@ -2,7 +2,7 @@
 Author: Kerrrs 2541822105@qq.com
 Date: 2023-03-01 12:14:18
 LastEditors: Kerrrs 2541822105@qq.com
-LastEditTime: 2023-03-01 13:46:43
+LastEditTime: 2023-03-01 14:26:45
 FilePath: \python_learn\笔记\面向对象编程笔记.py
 Description: 
 
@@ -10,17 +10,12 @@ Copyright (c) 2023 by 2541822105@qq.com, All Rights Reserved.
 '''
 
 
-
-
-
-
-
 """   
 ----------类----------
 ————类的创建
 class 类的名称:                             类的名称首字母大写（规范）
     native_place='湖北'                     直接写在类里的变量，称为类属性
-    def __init__(self,name,age):
+    def __init__(self,name,age):            初始化方法，实例化时会自动执行，进行一些初始化工作。
         self.name=name                      self.name称为实体属性，进行了一个赋值的操作，
         self.age=age                        将局部变量的name的值赋给实体属性。
         
